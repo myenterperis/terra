@@ -35,11 +35,11 @@ data "aws_ami" "amzlinux2" {
   }
 }
 
-resource "aws_s3_bucket" "buc" {
-  bucket = "tfbucketyayabk29"
-  acl    = "private"
+//resource "aws_s3_bucket" "buc" {
+  //bucket = "tfbucketyayabk29"
+  ac//l    = "private"
 
-  versioning {
-    enabled = true
-  }
-}
+  //versioning {
+    //enabled = true
+  //}
+//}
